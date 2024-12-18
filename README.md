@@ -8,7 +8,7 @@ Bu bash script ile birlikte 5 farklı subdomain bulma aracını bir araya getirm
 - Findomain
 - Crtsh
 
-!!!info Bu araçların hali hazırda sisteminizde olması gerekir.
+!! Bu araçların hali hazırda sisteminizde olması gerekir.!!
 
 Verilen -d parametresiyle verilen domain üzerinde subdomain taraması yapılır.
 
