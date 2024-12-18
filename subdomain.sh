@@ -8,11 +8,6 @@ Help(){
 	echo '-d --> Domain   -f --> Dosya ismi'
 }
 
-#subfinder
-#assetfinder
-#crtsh
-#findomain
-
 Domain(){
 
 	Green='\033[0;32m'
@@ -68,7 +63,6 @@ Domain(){
 	amass enum -silent -d $url > amass.txt
 	echo -e ${Green}"Amass finished"${NC}
 
-	# ekrana yazdırma kısmı
 	cat subfinder.txt | cat assetfinder.txt | cat crtsh.txt | cat findomain.txt | anew amass.txt > $url".txt"
 	mv amass.txt $url".txt"
 	rm subfinder.txt assetfinder.txt crtsh.txt findomain.txt
