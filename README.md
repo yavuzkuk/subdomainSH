@@ -2,11 +2,12 @@
 
 Bu bash script ile birlikte 5 farklı subdomain bulma aracını bir araya getirmiş oluyor.
 
-- Amass
-- Subfinder
-- Assetfinder
-- Findomain
-- Crtsh
+- [Amass](https://github.com/owasp-amass/amass)
+- [Subfinder](https://github.com/projectdiscovery/subfinder)
+- [Assetfinder](https://github.com/tomnomnom/assetfinder)
+- [Findomain](https://github.com/Findomain/Findomain)
+- [Crtsh](https://github.com/YashGoti/crtsh)
+- [Anew](https://github.com/tomnomnom/anew)
 
 !! Bu araçların hali hazırda sisteminizde olması gerekir.!!
 
