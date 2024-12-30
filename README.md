@@ -1,15 +1,20 @@
 #  SubdomainSH
 
-Bu bash script ile birlikte 5 farklı subdomain bulma aracını bir araya getirmiş oluyor.
+Bu bash script ile birlikte 6 farklı subdomain bulma aracını bir araya getirmiş oluyor.
 
 - [Amass](https://github.com/owasp-amass/amass)
 - [Subfinder](https://github.com/projectdiscovery/subfinder)
 - [Assetfinder](https://github.com/tomnomnom/assetfinder)
 - [Findomain](https://github.com/Findomain/Findomain)
 - [Crtsh](https://github.com/YashGoti/crtsh)
+- [Sublist3r](https://github.com/aboul3la/Sublist3r)
 - [Anew](https://github.com/tomnomnom/anew)
 
-!! Bu araçların hali hazırda sisteminizde olması gerekir.!!
+!!! warning Bu araçların hali hazırda sisteminizde olması gerekir.!!!
+
+> [!NOTE]  
+> Bu araçların hali hazırda sisteminizde olması gerekir.
+
 
 Verilen -d parametresiyle verilen domain üzerinde subdomain taraması yapılır.
 
