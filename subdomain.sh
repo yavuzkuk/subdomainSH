@@ -63,9 +63,13 @@ Domain(){
 	amass enum -silent -d $url > amass.txt
 	echo -e ${Green}"Amass finished"${NC}
 
-	cat subfinder.txt | cat assetfinder.txt | cat crtsh.txt | cat findomain.txt | anew amass.txt > $url".txt"
+	sublist3r -d $url -o sublist3r.txt > /dev/null 2>&1
+	echo -e ${Green}"Sublister finished"${NC}
+	
+
+	cat subfinder.txt | cat assetfinder.txt | cat crtsh.txt | cat findomain.txt | cat sublist3r.txt | anew amass.txt > $url".txt"
 	mv amass.txt $url".txt"
-	rm subfinder.txt assetfinder.txt crtsh.txt findomain.txt
+	rm subfinder.txt assetfinder.txt crtsh.txt findomain.txt sublist3r.txt
 
 
 	echo -e "Result for "${Green}$url${NC}
