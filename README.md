@@ -11,7 +11,7 @@ Bu bash script ile birlikte 6 farklı subdomain bulma aracını bir araya getirm
 - [Anew](https://github.com/tomnomnom/anew)
 
 
-> [!Dikkat]  
+> [!Note]  
 > Bu araçların hali hazırda sisteminizde olması gerekir.
 
 
