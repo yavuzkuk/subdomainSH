@@ -30,3 +30,7 @@ sudo mv subdomain.sh /usr/local/bin/subdomain
 
 subdomain -d google.com
 ```
+
+Eklenecek araçlar:
+- DOME
+- dnsdumpster
