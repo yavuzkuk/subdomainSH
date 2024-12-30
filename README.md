@@ -10,9 +10,8 @@ Bu bash script ile birlikte 6 farklı subdomain bulma aracını bir araya getirm
 - [Sublist3r](https://github.com/aboul3la/Sublist3r)
 - [Anew](https://github.com/tomnomnom/anew)
 
-!!! warning Bu araçların hali hazırda sisteminizde olması gerekir.!!!
 
-> [!NOTE]  
+> [!Dikkat]  
 > Bu araçların hali hazırda sisteminizde olması gerekir.
 
 
